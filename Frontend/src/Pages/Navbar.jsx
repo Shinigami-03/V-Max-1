@@ -29,7 +29,6 @@ import { FaRegCircleUser } from "react-icons/fa6"
   import { GoHomeFill } from "react-icons/go";
   import { LiaTvSolid } from "react-icons/lia"
   import { PiFilmSlateFill } from "react-icons/pi"
-  import { MdSportsVolleyball } from "react-icons/md"
   import { BiSolidCategory } from "react-icons/bi"
   import {Link, useNavigate} from "react-router-dom"
   import React, { useEffect, useState } from 'react'
@@ -188,9 +187,6 @@ const SidebarContent = ({ ...props }) => {
             </Link>
             <Link to="/movies">
               <NavItem icon={PiFilmSlateFill}>Movies</NavItem>
-            </Link>
-            <Link to="/">
-              <NavItem icon={MdSportsVolleyball}>Sports</NavItem>
             </Link>
             <Link to="/categories">
               <NavItem icon={BiSolidCategory}>Categories</NavItem>

@@ -33,8 +33,6 @@ console.log(videoId)
         <div id='Heading'>
         <h1 >Welcome !</h1>
         <img  src={Logo} alt="" />
-        <p>We're thrilled to have you as our guest. Explore the exciting world of entertainment, discover new stories, and immerse yourself in a captivating experience. Whether you're a movie enthusiast, a gaming aficionado, or just looking for a place to unwind, we've got something special for everyone. Enjoy your stay!</p>
-        <h6>Action | Fantasy | Period | Revenge</h6>
         </div>
        
         <video
